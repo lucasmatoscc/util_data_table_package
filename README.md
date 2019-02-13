@@ -1,7 +1,19 @@
 # util_data_table_package
 
 
-Para gerar o DataTable utilizado a classe utilDataTable.dart é só instanciar a classe da seguinte forma:
+Para utilizar o DataTable é só colocar no pubspec.yaml da seguinte forma:
+
+``` Dart
+util_data_table_package:
+      git:
+        url: git://github.com/lucasmatoscc/util_data_table_package.git
+        ref: master
+ ```
+ 
+ E importar na classe:
+ ``` Dart
+ import 'package:util_data_table_package/utilDataTable.dart';
+ ```
 
 ``` Dart
 List<Cliente> listaRetorno = new List<Cliente>(); //instância da classe que você quer que retorne
