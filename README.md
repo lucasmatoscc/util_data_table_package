@@ -14,6 +14,8 @@ util_data_table_package:
  ``` Dart
  import 'package:util_data_table_package/utilDataTable.dart';
  ```
+ 
+ Parâmetros:
 
 ``` Dart
 List<Cliente> listaRetorno = new List<Cliente>(); //instância da classe que você quer que retorne
